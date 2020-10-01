@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite,Chrome 85.0.4183.121,,,2020-10-01 13:55:00,2020-10-01 13:55:15,14.915s,PASSED
+,,,,,,,
+Test Cases/Test_001,Chrome 85.0.4183.121,,,2020-10-01 13:55:00,2020-10-01 13:55:15,14.512s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-01 13:55:01,2020-10-01 13:55:05,4.759s,PASSED
+navigateToUrl(Url),Chrome 85.0.4183.121,,,2020-10-01 13:55:05,2020-10-01 13:55:11,5.243s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_txtUsername""), UserName)",Chrome 85.0.4183.121,,,2020-10-01 13:55:11,2020-10-01 13:55:12,0.961s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_txtPassword""), PassWord)",Chrome 85.0.4183.121,,,2020-10-01 13:55:12,2020-10-01 13:55:12,0.646s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Submit""))",Chrome 85.0.4183.121,,,2020-10-01 13:55:12,2020-10-01 13:55:14,1.698s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-01 13:55:14,2020-10-01 13:55:15,0.764s,PASSED
